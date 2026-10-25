@@ -1,0 +1,36 @@
+{
+  "projectType": "saas",
+  "projectName": "Just Spades",
+  "projectDescription": "Just Spades is a mobile card game app with dedicated pages for privacy policy and user support.",
+  "theme": "almond",
+  "primaryColor": "#1A3A5C",
+  "lightColor": "#2E6DA4",
+  "darkColor": "#0D1F33",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": ["introduction"]
+      },
+      {
+        "group": "Support",
+        "pages": ["support/getting-started", "support/gameplay", "support/account", "support/troubleshooting", "support/contact"]
+      },
+      {
+        "group": "Legal",
+        "pages": ["legal/privacy-policy", "legal/terms-of-service"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Classic Spades card game for mobile",
+    "Privacy policy hosting for app store compliance",
+    "User support and help center",
+    "Contact and issue reporting"
+  ],
+  "publicApiSurface": [
+    "Privacy Policy page",
+    "Support / FAQ page",
+    "Contact form / support request"
+  ]
+}
